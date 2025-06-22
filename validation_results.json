@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "original_response": "The capital of France is Paris.",
+        "validation_result": "RETRY: answer differs from KB",
+        "retry_response": "The capital of France is Paris."
+    },
+    {
+        "question": "What is the boiling point of water at sea level?",
+        "original_response": "The boiling point of water at sea level is 100 degrees Celsius or 212 degrees Fahrenheit.",
+        "validation_result": "RETRY: answer differs from KB",
+        "retry_response": "The boiling point of water at sea level is 100 degrees Celsius or 212 degrees Fahrenheit."
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "original_response": "'Romeo and Juliet' was written by William Shakespeare.",
+        "validation_result": "RETRY: answer differs from KB",
+        "retry_response": "William Shakespeare wrote 'Romeo and Juliet'."
+    },
+    {
+        "question": "What is the chemical formula for water?",
+        "original_response": "The chemical formula for water is H2O.",
+        "validation_result": "VALID",
+        "retry_response": null
+    },
+    {
+        "question": "What planet is known as the Red Planet?",
+        "original_response": "The planet known as the Red Planet is Mars.",
+        "validation_result": "RETRY: answer differs from KB",
+        "retry_response": "The planet known as the Red Planet is Mars."
+    },
+    {
+        "question": "What is the largest organ in the human body?",
+        "original_response": "The largest organ in the human body is the skin.",
+        "validation_result": "RETRY: answer differs from KB",
+        "retry_response": "The largest organ in the human body is the skin."
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "original_response": "The Mona Lisa was painted by Leonardo da Vinci.",
+        "validation_result": "RETRY: answer differs from KB",
+        "retry_response": "Leonardo da Vinci painted the Mona Lisa."
+    },
+    {
+        "question": "What is the speed of light?",
+        "original_response": "The speed of light in a vacuum is approximately 299,792 kilometers per second or 186,282 miles per second.",
+        "validation_result": "RETRY: answer differs from KB",
+        "retry_response": "The speed of light is approximately 299,792,458 meters per second in a vacuum."
+    },
+    {
+        "question": "What is photosynthesis?",
+        "original_response": "Photosynthesis is a process used by plants, algae, and certain bacteria to convert sunlight, water, and carbon dioxide into food (glucose) and oxygen. This process is fundamental for life on Earth as it provides the oxygen we breathe and is the base of the food chain.",
+        "validation_result": "RETRY: answer differs from KB",
+        "retry_response": "Photosynthesis is a biological process carried out by plants, algae, and some bacteria, where they convert light energy, usually from the sun, into chemical energy. This process involves the absorption of light by chlorophyll, which leads to the conversion of carbon dioxide and water into glucose, a type of sugar. The glucose is then used by the plants as a source of energy for growth and development. Oxygen is also produced as a byproduct of this process."
+    },
+    {
+        "question": "What is the main function of DNA?",
+        "original_response": "The main function of DNA (deoxyribonucleic acid) is to store and transmit genetic information that tells cells which proteins to make and when to make them. It serves as the blueprint for all cellular activity and heredity.",
+        "validation_result": "RETRY: answer differs from KB",
+        "retry_response": "The main function of DNA is to store, transmit, and help in the expression of hereditary information in living organisms."
+    },
+    {
+        "question": "What is the capital of the ancient Atlantis?",
+        "original_response": "The capital of Atlantis, as described by Plato, is also referred to as Atlantis. However, it's important to note that Atlantis is a legendary city, and its existence or location has never been confirmed.",
+        "validation_result": "RETRY: out-of-domain",
+        "retry_response": "The capital of the ancient Atlantis is not known. The existence of Atlantis itself is a topic of debate among historians and archaeologists, as it is primarily known from the works of the ancient Greek philosopher Plato. In his dialogues, he described Atlantis as a powerful and advanced kingdom that sank into the sea, but he did not provide specific details about its capital. Therefore, it's not possible to provide a factual answer to this question."
+    },
+    {
+        "question": "How many atoms are in a human thought?",
+        "original_response": "There's currently no scientific method to quantify the number of atoms involved in a human thought. Thoughts are complex processes involving electrical and chemical signals in the brain, which is made up of atoms, but we can't specify a certain number of atoms per thought.",
+        "validation_result": "RETRY: out-of-domain",
+        "retry_response": "I'm sorry, but it's not possible to quantify the number of atoms in a human thought. Thoughts are not physical entities that can be measured in terms of atoms. They are a result of complex processes in the brain involving neurons, neurotransmitters, and electrical signals."
+    },
+    {
+        "question": "What color is the number 7?",
+        "original_response": "The number 7 does not have a color. It is a numerical digit and can be represented in any color depending on the context or design.",
+        "validation_result": "RETRY: out-of-domain",
+        "retry_response": "The color of the number 7 is not inherently defined. It can be any color, depending on the context or the specific representation. In general, numbers do not have assigned colors unless specified in a particular system or context, such as in a color-coded chart or graph."
+    },
+    {
+        "question": "What is the sound of one hand clapping?",
+        "original_response": "The phrase \"the sound of one hand clapping\" is a traditional Zen koan, a riddle-like question used in Zen practice to provoke doubt and test progress. It's not meant to have a straightforward answer. In a literal sense, one hand cannot produce a clapping sound without another hand or surface to strike against.",
+        "validation_result": "RETRY: out-of-domain",
+        "retry_response": "The phrase \"the sound of one hand clapping\" is a traditional Zen koan, a type of riddle used in Buddhist practice to provoke doubt and test a student's progress. It's not meant to have a literal answer, as it's more about the process of contemplation and reaching a deeper understanding. Therefore, from a factual perspective, it's not possible to provide a definitive answer to this question."
+    },
+    {
+        "question": "Can you explain quantum physics to a goldfish?",
+        "original_response": "As an AI, I can simplify complex concepts, but explaining quantum physics to a goldfish would be impossible due to their limited cognitive abilities. Quantum physics involves concepts like superposition and entanglement, which are beyond the comprehension of a goldfish.",
+        "validation_result": "RETRY: out-of-domain",
+        "retry_response": "As an AI, I can provide information on quantum physics in a simplified manner. However, it's important to note that goldfish, or any other animals, do not have the cognitive capacity to understand complex scientific concepts such as quantum physics. They lack the necessary language comprehension, abstract thinking, and other cognitive abilities required to grasp such concepts."
+    }
+]

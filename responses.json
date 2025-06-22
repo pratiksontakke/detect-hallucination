@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "model_response": "The capital of France is Paris.",
+        "type": "kb_question",
+        "kb_answer": "Paris is the capital of France."
+    },
+    {
+        "question": "What is the boiling point of water at sea level?",
+        "model_response": "The boiling point of water at sea level is 100 degrees Celsius or 212 degrees Fahrenheit.",
+        "type": "kb_question",
+        "kb_answer": "Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at sea level."
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "model_response": "'Romeo and Juliet' was written by William Shakespeare.",
+        "type": "kb_question",
+        "kb_answer": "William Shakespeare wrote 'Romeo and Juliet'."
+    },
+    {
+        "question": "What is the chemical formula for water?",
+        "model_response": "The chemical formula for water is H2O.",
+        "type": "kb_question",
+        "kb_answer": "The chemical formula for water is H2O."
+    },
+    {
+        "question": "What planet is known as the Red Planet?",
+        "model_response": "The planet known as the Red Planet is Mars.",
+        "type": "kb_question",
+        "kb_answer": "Mars is known as the Red Planet."
+    },
+    {
+        "question": "What is the largest organ in the human body?",
+        "model_response": "The largest organ in the human body is the skin.",
+        "type": "kb_question",
+        "kb_answer": "The skin is the largest organ in the human body."
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "model_response": "The Mona Lisa was painted by Leonardo da Vinci.",
+        "type": "kb_question",
+        "kb_answer": "Leonardo da Vinci painted the Mona Lisa."
+    },
+    {
+        "question": "What is the speed of light?",
+        "model_response": "The speed of light in a vacuum is approximately 299,792 kilometers per second or 186,282 miles per second.",
+        "type": "kb_question",
+        "kb_answer": "The speed of light is approximately 299,792,458 meters per second in a vacuum."
+    },
+    {
+        "question": "What is photosynthesis?",
+        "model_response": "Photosynthesis is a process used by plants, algae, and certain bacteria to convert sunlight, water, and carbon dioxide into food (glucose) and oxygen. This process is fundamental for life on Earth as it provides the oxygen we breathe and is the base of the food chain.",
+        "type": "kb_question",
+        "kb_answer": "Photosynthesis is the process by which plants convert light energy into chemical energy to produce glucose from carbon dioxide and water."
+    },
+    {
+        "question": "What is the main function of DNA?",
+        "model_response": "The main function of DNA (deoxyribonucleic acid) is to store and transmit genetic information that tells cells which proteins to make and when to make them. It serves as the blueprint for all cellular activity and heredity.",
+        "type": "kb_question",
+        "kb_answer": "DNA stores and transmits genetic information in living organisms."
+    },
+    {
+        "question": "What is the capital of the ancient Atlantis?",
+        "model_response": "The capital of Atlantis, as described by Plato, is also referred to as Atlantis. However, it's important to note that Atlantis is a legendary city, and its existence or location has never been confirmed.",
+        "type": "edge_case",
+        "kb_answer": null
+    },
+    {
+        "question": "How many atoms are in a human thought?",
+        "model_response": "There's currently no scientific method to quantify the number of atoms involved in a human thought. Thoughts are complex processes involving electrical and chemical signals in the brain, which is made up of atoms, but we can't specify a certain number of atoms per thought.",
+        "type": "edge_case",
+        "kb_answer": null
+    },
+    {
+        "question": "What color is the number 7?",
+        "model_response": "The number 7 does not have a color. It is a numerical digit and can be represented in any color depending on the context or design.",
+        "type": "edge_case",
+        "kb_answer": null
+    },
+    {
+        "question": "What is the sound of one hand clapping?",
+        "model_response": "The phrase \"the sound of one hand clapping\" is a traditional Zen koan, a riddle-like question used in Zen practice to provoke doubt and test progress. It's not meant to have a straightforward answer. In a literal sense, one hand cannot produce a clapping sound without another hand or surface to strike against.",
+        "type": "edge_case",
+        "kb_answer": null
+    },
+    {
+        "question": "Can you explain quantum physics to a goldfish?",
+        "model_response": "As an AI, I can simplify complex concepts, but explaining quantum physics to a goldfish would be impossible due to their limited cognitive abilities. Quantum physics involves concepts like superposition and entanglement, which are beyond the comprehension of a goldfish.",
+        "type": "edge_case",
+        "kb_answer": null
+    }
+]

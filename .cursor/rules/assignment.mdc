@@ -1,0 +1,49 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Assignment: Hallucination Detection & Guardrails
+
+## 🧠 Objective
+Build a lightweight system to **detect hallucinations** in responses from a language model by validating answers against a structured knowledge base (KB).
+
+---
+
+## 🧩 Task Breakdown
+
+### ✅ 1. Knowledge Base Creation
+- Create a file `kb.json` containing **10 factual Q&A pairs**.
+- This acts as the ground truth reference.
+
+### 💬 2. Questioning the Model
+- Use `ask_model.py` to:
+  - Ask the model all 10 KB questions.
+  - Add **5 edge-case or out-of-domain** questions (total = 15).
+  - Store model responses.
+
+### 🧪 3. Hallucination Detection
+Implement `validator.py` to:
+- **Compare model answers to KB** using simple string matching.
+- Logic:
+  - If question is in KB and answer differs → `RETRY: answer differs from KB`
+  - If question is not in KB → `RETRY: out-of-domain`
+- Re-query once on `RETRY`, log all responses to `run.log`.
+
+---
+
+## 📁 File Structure
+
+```
+ /
+├── kb.json           # Contains 10 factual Q&A pairs
+├── ask_model.py      # Script to query model
+├── validator.py      # Script to detect hallucinations
+├── run.log          # Log of all Q&A and validation steps
+└── summary.md       # Overview and learnings from this assignment
+```
+
+---
+
+
+
